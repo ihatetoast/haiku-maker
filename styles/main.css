@@ -12,6 +12,8 @@ h3 {
 }
 .lilypad {
 	background-image: url(http://www.peteradamsphoto.com/wp-content/uploads/2011/07/boulder.CF001866.web_.jpg);
+	height: 40em;
+	padding: 2em 5em;
 }
 .haikuMaker {
 	display: block;
@@ -22,9 +24,14 @@ h3 {
 
 .haiku {
 	margin: 2em auto;
+	padding: 2em;
 	background-color: #fff;
-	height: 3em;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	line-height: 1.6em;
 }
+
 .reset {
 	display: block;
 	background-color: #78B5C6;
