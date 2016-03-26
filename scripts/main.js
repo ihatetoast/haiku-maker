@@ -37,6 +37,11 @@ var haiku =document.querySelector('.haikuMaker');
 haiku.addEventListener('click',function() {
 	// console.log("this much works.");
 	document.querySelector('.haiku').innerHTML = ('<div>'+line1+'</div><div>'+line2+'</div><div>'+line3+'</div>');
+});
+
+var resetHaiku = document.querySelector('.resetHaiku');
+resetHaiku.addEventListener('click',function(){
+	document.querySelector('.haiku').innerHTML = ('');
 })
 //user clicks haiku button.
 

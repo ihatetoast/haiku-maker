@@ -27,12 +27,13 @@ h3 {
 	padding: 2em;
 	background-color: #fff;
 	color: #000;
+	height: 6em;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.75em;
 	line-height: 1.6em;
 }
 
-.reset {
+.resetHaiku {
 	display: block;
 	background-color: #78B5C6;
 	margin: 0.5em auto;
